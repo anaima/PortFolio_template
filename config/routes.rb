@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :brands
   devise_for :users
   get 'page_vide' => 'application#page_vide'
   # The priority is based upon order of creation: first created -> highest priority.
