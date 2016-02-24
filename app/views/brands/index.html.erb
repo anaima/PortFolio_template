@@ -28,10 +28,9 @@
  <% brand.products.each do |product| %>
  <tr>
   <td><%= product.name %></td>
-  <td><%= product.descrition %></td>
-  <td><%= product.price %></td>
+  <td><%= product.description %></td>
   <td><%= product.brand.name unless product.brand.nil?%></td> <!-- display the name's brand -->
-  <!-- <td><%= image_tag(@product.picture,)%></td> -->
+
   <td></td>
   <td></td>
 </tr>
