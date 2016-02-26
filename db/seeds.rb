@@ -13,9 +13,9 @@ User.create!(email: 'admin@admin.com', password:"password", password_confirmatio
 
 # # Use these variable to  populate text zones
 
-# img= File.open(.........;.png)
-#
-# Product.create!(pict: img)
+
+#pr upload les images
+# File.open(File.join(Rails.root, "/app/assets/images/seed/#{file_name}.jpg"))
 
 
 Brand.delete_all
